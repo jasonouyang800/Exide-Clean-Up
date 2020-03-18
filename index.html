@@ -3,239 +3,15 @@
 <head>
     <link rel="stylesheet" href="css\bootstrap.css">
     <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\all.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d12d68b6cd.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js\button.js"></script>
     <title>Document</title>
+    
 </head>
-<style>
-    
-    .inherit-black a{
-      
-        color:inherit;
-    }
-    .col1 i{
-        font-size:8em;
-    }
-   
-    .icon {
-    width: 1.75em;
-    height: 1.75em;
-    padding: 0.125em;
-    font-size: 5em;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-a{
-    text-decoration: underline;
-}
-.icon.news {
-    background: #E0E0E0;
-}
-.icon.news i {
-    color: #212121;
-}
-.icon.testing {
-    background: #CC4E10;
-    
-}
-.icon.testing i{
-    color:#fff
-}
- #news{
-    color:#212529
-}
-.onlightgrey{
-    background: #e0e0e0
-}
-ul{
-    padding: 0;
-    list-style: none;
-}
-.onlightblue{
-    background: #40c4ff
-}
-.onorange{
-    background: #cc4e10;
-}
-#testing{
-    color:#fff
-}
-.onrichgreen{
-    background: #326e1e;
-}
-.onteal{
-    background: #00758c
-}
-.icon.residents {
-    background: #40C4FF;
-}
-.icon.residents i {
-    color: #212121;
-}
-.icon.plan {
-    background: #326E1E;
-}
-.icon.plan i {
-    color: #fff;
-}
-.icon.water {
-    background: #00758C;
-}
-.icon.water i {
-    color: #fff;
-}
-#plan {
-    color:#FFF
-}
-#water{
-    color:#FFF
-}
-#footer {
-    background: #212121;
-    color: #fff;
-    font-size: 14px;
-    line-height: 1.2;
-    overflow: hidden;
-}
-a:not(.social-linky) {
-    text-decoration: underline;
-}
-#footer a {
-    color: #fff;
-}
-#footer.title{
-    font-family: 'Roboto Condensed', sans-serif;
-}
-body {
-    font: 100%/1.5 "lato-reg",sans-serif;
-    font-family: 'Lato', sans-serif;
-}
-#footer .title, .h1, .h2, .h3, .h4, .h5, .h6, .headings-base, .slab-bottom-overlay, .slab-cta, h1, h2, h3, h4, h5, h6 {
-    font-family: Roboto Condensed,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    word-wrap: normal;
-}
-#footer .title, .h2, h2 {
-    font-size: 1.2em;
-    line-height: 1.35em;
-}
-@media (min-width: 960px){
-
-    #footer .title, .h2, h2 {
-    font-size: 1.5em;
-    
-}
-.h3, h3 {
-    font-size: 1.35em;
-}
-    
-}
-@media (min-width: 720px){
-
-    #footer .title, .h2, h2 {
-    font-size: 1.4em;
-    line-height: 1.3em;
-}
-.h3, h3 {
-    font-size: 1.2em;
-    line-height: 1.3em;
-}
-    
-}
-.h3, h3 {
-    font-size: 1.1em;
-    line-height: 1.33em;
-}
-@media (max-width: 960px){
-    #content-anchor {
-    font-size: 0.8em;
-}
-}
-
-#content-anchor {
-    font-weight: bold;
-}
-#content-anchor a {
-    color: #227fa6;
-}
-
-#site-name {
-    color: #fff;
-    font: 100%/1.5 "roboto-condensed-reg",sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2.8em;
-    height:105px;
-    line-height: 105px;
-
-}
- #header-wrap {
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-   
-}
-img {
-        border: 0;
-        max-width: 100%;
-        height: auto;
-        width: auto;
-}
-    #site-name a {
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #fff;
-    text-decoration: none;
-}
- #header-background-opacity {
-    background-color: #212121;
-    opacity: .55;
-    margin: 0 auto;
-    max-width: 1920px;
-    width: 100%;
-    height: 105px;
-    position: absolute;
-    z-index:2;
- }
-#header-background {
-    position:absolute;
-    background-size: cover;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    filter: blur(5px);
-    height:105px;
-    width:100%;
-    margin-top: -7.5px;
-    background-image: url("https://exidecleanup.lacity.org/sites/g/files/wph456/f/styles/regular_hero/public/bigstock-Modern-California-hillside-hom-41416384.jpg?itok=lYd9D79x&quot");
-}
-@media (max-width: 960px){
-    #site-name {
-    font-size: 2.6em;
-}
-}
-@media (max-width: 720px){
-    #site-name {
-    font-size: 2em;
-}
-#header-background-opacity {
-    background: #474747;
-    opacity:1;
-}
-}
-@media (max-width: 480px){
-    #site-name {
-    font-size: .75em;
-}
-}
-
-
-</style>
 <body>
 <div class="container-fluid p-0">
 
@@ -250,8 +26,6 @@ img {
               </h1>
         </div>
         
-
-
     <img class="w-auto h-auto mw-100" src="https://exidecleanup.lacity.org/sites/g/files/wph456/f/styles/regular_hero/public/bigstock-Modern-California-hillside-hom-41416384.jpg?itok=lYd9D79x" width="1920" height="540" alt="Exide Factory" title="Exide Factory">
 </div>
    
@@ -326,7 +100,7 @@ img {
                 <h3>For Parents/Residents</h3>
                 </li>
                 </ul><p>Download the USC Fact Sheet in <a href="https://app.box.com/s/0uyqmfghajjk9zaihrk07ru8mnoyc20n">English</a><a href="https://app.box.com/s/bx51tar94jk89tie2qokbovr3jc57beb"> </a>or <a href="https://app.box.com/s/bx51tar94jk89tie2qokbovr3jc57beb">Spanish</a> to read about health related concerns.</p>
-                <p><img alt="Living Near Lead" title="Living Near Lead" style="width: 100%; height: 100%;" class="media-element file-default" data-delta="1" src="https://exidecleanup.lacity.org/sites/g/files/wph456/f/living-near-lead-english-1.png" width="1000" height="2454"></p>
+                <p><img alt="Living Near Lead" title="Living Near Lead" style="width: 100%; height: 100%;" class="media-element file-default" data-delta="1" src="Images\living-near-lead-english-1.png" width="1000" height="2454"></p>
             </div>
             
         </div>
@@ -407,9 +181,8 @@ img {
         </div>
     </div>
 </div>
-
-
 </footer>
-    
-</body>
+<div id="back-to-top" class="block block-block backtotop last even" style="display: block;">
+    <div  title="Back to Top"><i class="fa fa-chevron-up">&nbsp;</i><p>Top</p></div>
+  </div></body>
 </html>
