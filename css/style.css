@@ -1,159 +1,4 @@
   
-    .inherit-black a{
-      
-        color:inherit;
-    }
-    .col1 i{
-        font-size:8em;
-    }
-   
-    .icon {
-    width: 1.75em;
-    height: 1.75em;
-    padding: 0.125em;
-    font-size: 5em;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-a{
-    text-decoration: underline;
-}
-.icon.news {
-    background: #E0E0E0;
-}
-.icon.news i {
-    color: #212121;
-}
-.icon.testing {
-    background: #CC4E10;
-    
-}
-.icon.testing i{
-    color:#fff
-}
- #news{
-    color:#212529
-}
-.onlightgrey{
-    background: #e0e0e0
-}
-ul{
-    padding: 0;
-    list-style: none;
-}
-.onlightblue{
-    background: #40c4ff
-}
-.onorange{
-    background: #cc4e10;
-}
-#testing{
-    color:#fff
-}
-.onrichgreen{
-    background: #326e1e;
-}
-.onteal{
-    background: #00758c
-}
-.icon.residents {
-    background: #40C4FF;
-}
-.icon.residents i {
-    color: #212121;
-}
-.icon.plan {
-    background: #326E1E;
-}
-.icon.plan i {
-    color: #fff;
-}
-.icon.water {
-    background: #00758C;
-}
-.icon.water i {
-    color: #fff;
-}
-#plan {
-    color:#FFF
-}
-#water{
-    color:#FFF
-}
-#footer {
-    background: #212121;
-    color: #fff;
-    font-size: 14px;
-    line-height: 1.2;
-    overflow: hidden;
-}
-a:not(.social-linky) {
-    text-decoration: underline;
-}
-#footer a {
-    color: #fff;
-}
-#footer.title{
-    font-family: 'Roboto Condensed', sans-serif;
-}
-body {
-    font: 100%/1.5 "lato-reg",sans-serif;
-    font-family: 'Lato', sans-serif;
-}
-#footer .title, .h1, .h2, .h3, .h4, .h5, .h6, .headings-base, .slab-bottom-overlay, .slab-cta, h1, h2, h3, h4, h5, h6 {
-    font-family: Roboto Condensed,sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    word-wrap: normal;
-}
-#footer .title, .h2, h2 {
-    font-size: 1.2em;
-    line-height: 1.35em;
-}
-@media (min-width: 960px){
-
-    #footer .title, .h2, h2 {
-    font-size: 1.5em;
-    
-}
-.h3, h3 {
-    font-size: 1.35em;
-}
-    
-}
-@media (min-width: 720px){
-
-    #footer .title, .h2, h2 {
-    font-size: 1.4em;
-    line-height: 1.3em;
-}
-.backtotop {
-    bottom: 5em;
-}
-.h3, h3 {
-    font-size: 1.2em;
-    line-height: 1.3em;
-}
-    
-}
-.h3, h3 {
-    font-size: 1.1em;
-    line-height: 1.33em;
-}
-@media (max-width: 960px){
-    #content-anchor {
-    font-size: 0.8em;
-}
-}
-
-#content-anchor {
-    font-weight: bold;
-}
-#content-anchor a {
-    color: #227fa6;
-}
-
 #site-name {
     color: #fff;
     font: 100%/1.5 "roboto-condensed-reg",sans-serif;
@@ -203,6 +48,140 @@ img {
     margin-top: -7.5px;
     background-image: url("https://exidecleanup.lacity.org/sites/g/files/wph456/f/styles/regular_hero/public/bigstock-Modern-California-hillside-hom-41416384.jpg?itok=lYd9D79x&quot");
 }
+
+.onlightgrey{
+    background: #e0e0e0
+}
+.onlightblue{
+    background: #40c4ff
+}
+.onorange{
+    background: #cc4e10;
+}
+.onrichgreen{
+    background: #326e1e;
+}
+.onteal{
+    background: #00758c
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+
+#testing{
+    color:#fff
+}
+
+#plan {
+    color:#FFF
+}
+#water{
+    color:#FFF
+}
+.icon.residents {
+    background: #40C4FF;
+}
+.icon.residents i {
+    color: #212121;
+}
+.icon.plan {
+    background: #326E1E;
+}
+.icon.plan i {
+    color: #fff;
+}
+.icon.water {
+    background: #00758C;
+}
+.icon.water i {
+    color: #fff;
+}
+.inherit-black a{
+      
+    color:inherit;
+}
+.col1 i{
+    font-size:8em;
+}
+
+.icon {
+width: 1.75em;
+height: 1.75em;
+padding: 0.125em;
+font-size: 5em;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+a{
+text-decoration: underline;
+}
+.icon.news {
+background: #E0E0E0;
+}
+.icon.news i {
+color: #212121;
+}
+.icon.testing {
+background: #CC4E10;
+
+}
+.icon.testing i{
+color:#fff
+}
+#news{
+color:#212529
+}
+#content-anchor {
+    font-weight: bold;
+}
+#content-anchor a {
+    color: #227fa6;
+}
+a:not(.social-linky) {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 960px){
+
+    #footer .title, .h2, h2 {
+    font-size: 1.5em;
+    
+}
+.h3, h3 {
+    font-size: 1.35em;
+}
+    
+}
+@media (min-width: 720px){
+
+    #footer .title, .h2, h2 {
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+.backtotop {
+    bottom: 5em;
+}
+.h3, h3 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+    
+}
+.h3, h3 {
+    font-size: 1.1em;
+    line-height: 1.33em;
+}
+@media (max-width: 960px){
+    #content-anchor {
+    font-size: 0.8em;
+}
+}
+
+
 @media (max-width: 960px){
     #site-name {
     font-size: 2.6em;
@@ -247,7 +226,36 @@ img {
          url('../fonts/roboto-condensed-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('../fonts/roboto-condensed-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-condensed-v18-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
-  }
+}
+  body {
+    font: 100%/1.5 "lato-reg",sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+#footer {
+    background: #212121;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+#footer a {
+    color: #fff;
+}
+#footer.title{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer .title, .h1, .h2, .h3, .h4, .h5, .h6, .headings-base, .slab-bottom-overlay, .slab-cta, h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto Condensed,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    word-wrap: normal;
+}
+#footer .title, .h2, h2 {
+    font-size: 1.2em;
+    line-height: 1.35em;
+}
   .backtotop p {
 
     padding: 0 .7em .5em .75em;
